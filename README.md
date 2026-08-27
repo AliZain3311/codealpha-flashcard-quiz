@@ -216,18 +216,3 @@ lib/
 │   └── app_theme.dart
 │
 └── main.dart
-
-
-
-👨‍💻 Developer
-Ali Zain
-
-BS Information Technology | Flutter Developer
-
-GitHub
-
-https://github.com/AliZain3311
-
-Repository
-
-https://github.com/AliZain3311/codealpha-flashcard-quiz
