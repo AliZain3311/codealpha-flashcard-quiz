@@ -218,3 +218,238 @@ Branding assets are maintained inside:
 assets/
 ├── flashlearn_icon.png
 └── flashlearn_splash.png
+📱 Application Screenshots
+🚀 Splash Screen
+<p align="center"> <img src="screenshots/01_splash.png" width="260" alt="FlashLearn Splash Screen"> </p>
+🏠 Home Dashboard
+<p align="center"> <img src="screenshots/02_home.png" width="260" alt="FlashLearn Home Dashboard"> </p>
+📚 Flashcards
+<p align="center"> <img src="screenshots/03_flashcards.png" width="260" alt="FlashLearn Flashcards"> </p>
+🧠 Study Mode
+<p align="center"> <img src="screenshots/04_study.png" width="260" alt="FlashLearn Study Mode"> </p>
+📝 Quiz Mode
+<p align="center"> <img src="screenshots/05_quiz.png" width="260" alt="FlashLearn Quiz"> </p>
+🏆 Quiz Result
+<p align="center"> <img src="screenshots/06_quiz_result.png" width="260" alt="FlashLearn Quiz Result"> </p>
+🕘 Quiz History
+<p align="center"> <img src="screenshots/07_quiz_history.png" width="260" alt="FlashLearn Quiz History"> </p>
+🛠️ Technology Stack
+Technology	Purpose
+Flutter 3.38.9	Cross-platform application framework
+Dart 3.10.8	Programming language
+Hive 2.2.3	Local data persistence
+Hive Flutter	Flutter integration for Hive
+Path Provider	Local application storage support
+Material Design	UI components and design system
+Git & GitHub	Version control and source management
+🏗️ Project Architecture
+
+FlashLearn follows a clean and maintainable Flutter structure.
+
+lib/
+│
+├── app/
+│   └── app.dart
+│
+├── data/
+│   └── sample_flashcards.dart
+│
+├── models/
+│   └── flashcard_model.dart
+│
+├── screens/
+│   ├── add_edit_flashcard_screen.dart
+│   ├── flashcards_screen.dart
+│   ├── home_screen.dart
+│   ├── quiz_history_screen.dart
+│   ├── quiz_result_screen.dart
+│   ├── quiz_screen.dart
+│   ├── splash_screen.dart
+│   └── study_screen.dart
+│
+├── services/
+│   ├── progress_service.dart
+│   ├── quiz_history_service.dart
+│   └── storage_service.dart
+│
+├── theme/
+│   └── app_theme.dart
+│
+└── main.dart
+📂 Project Structure
+codealpha-flashcard-quiz/
+│
+├── assets/
+│   ├── flashlearn_icon.png
+│   └── flashlearn_splash.png
+│
+├── android/
+├── ios/
+├── linux/
+├── macos/
+├── web/
+├── windows/
+│
+├── lib/
+│   ├── app/
+│   ├── data/
+│   ├── models/
+│   ├── screens/
+│   ├── services/
+│   ├── theme/
+│   └── main.dart
+│
+├── screenshots/
+│   ├── 01_splash.png
+│   ├── 02_home.png
+│   ├── 03_flashcards.png
+│   ├── 04_study.png
+│   ├── 05_quiz.png
+│   ├── 06_quiz_result.png
+│   └── 07_quiz_history.png
+│
+├── test/
+│   └── widget_test.dart
+│
+├── pubspec.yaml
+├── pubspec.lock
+└── README.md
+⚙️ Installation
+Prerequisites
+
+Install the following:
+
+Flutter SDK
+Dart SDK
+Android Studio
+Android SDK
+VS Code or another Flutter-compatible IDE
+1. Clone the Repository
+git clone https://github.com/AliZain3311/codealpha-flashcard-quiz.git
+
+Then:
+
+cd codealpha-flashcard-quiz
+2. Install Dependencies
+flutter pub get
+3. Check Flutter Environment
+flutter doctor
+4. Run the Application
+Android
+flutter run
+Chrome
+flutter run -d chrome
+Windows
+flutter run -d windows
+🧪 Testing
+
+The project includes Flutter widget testing and static analysis.
+
+Run static analysis:
+
+flutter analyze
+
+Run automated tests:
+
+flutter test
+
+The final project has been verified using Flutter analysis and automated tests.
+
+📦 Release APK
+
+To create a production Android APK:
+
+flutter build apk --release
+
+Generated APK location:
+
+build/app/outputs/flutter-apk/app-release.apk
+
+The release APK can be installed directly on a compatible Android device.
+
+🚀 Web Build
+
+To create a production web build:
+
+flutter build web --release
+
+Generated web files:
+
+build/web/
+🔄 Development Workflow
+
+A typical FlashLearn learning workflow is:
+
+Create / Manage Flashcards
+          ↓
+      Study Cards
+          ↓
+      Take Quiz
+          ↓
+   Calculate Score
+          ↓
+ Save Quiz History
+          ↓
+Update Statistics
+          ↓
+ Track Learning Progress
+🎓 CodeAlpha Internship
+
+FlashLearn was developed as part of the:
+
+CodeAlpha App Development Internship
+
+The project demonstrates practical experience in:
+
+📱 Flutter application development
+💻 Dart programming
+🎨 Mobile UI/UX design
+💾 Local database management
+🏗️ Application architecture
+🔄 Data persistence
+📝 Quiz logic
+📈 Progress tracking
+🧪 Flutter testing
+🐙 Git & GitHub
+👨‍💻 Developer
+<p align="center">
+Ali Zain
+
+<strong>Bachelor of Science in Information Technology (BSIT)</strong>
+
+<br>
+
+<strong>Flutter & Mobile Application Developer</strong>
+
+</p>
+🔗 Developer Profiles
+🐙 GitHub: AliZain3311
+💼 LinkedIn: Ali Zain
+💻 Skills Demonstrated
+Flutter
+Dart
+Mobile Application Development
+Hive
+Local Data Persistence
+UI/UX Design
+Application Architecture
+Git & GitHub
+Flutter Testing
+🔮 Future Improvements
+
+Potential future improvements include:
+
+☁️ Cloud synchronization
+👤 User authentication
+📊 Advanced learning analytics
+🔔 Study reminders
+🌙 Dark mode
+🔊 Text-to-speech
+🤖 AI-generated flashcards
+🧠 AI-powered adaptive quizzes
+📚 Larger subject-specific question banks
+🏆 Gamification and achievement system
+🔄 Cross-device synchronization
+📄 License
+
+This project was developed for educational and internship purposes.
