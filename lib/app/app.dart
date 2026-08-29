@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../screens/home_screen.dart';
+import '../screens/splash_screen.dart';
 import '../theme/app_theme.dart';
 
 class FlashcardApp extends StatelessWidget {
@@ -12,7 +13,8 @@ class FlashcardApp extends StatelessWidget {
       title: 'FlashLearn',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const HomeScreen(),
+      home: const SplashScreen(),
+      routes: {'/home': (_) => const HomeScreen()},
     );
   }
 }
